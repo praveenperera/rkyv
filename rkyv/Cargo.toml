@@ -28,7 +28,7 @@ seahash = "4.0"
 # implementations should be moved into their respective crates over time. Before adding support for
 # another crate, please consider getting rkyv support in the crate instead.
 
-indexmap = { version = "1.7", optional = true, default-features = false }
+indexmap = { git = "https://github.com/bluss/indexmap", optional = true, default-features = false }
 smallvec = { version = "1.7", optional = true, default-features = false }
 tinyvec = { version = "1.5", optional = true, default-features = false }
 uuid = { version = "1.0", optional = true, default-features = false }
